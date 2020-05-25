@@ -33,8 +33,8 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://stupefied-spence-7a6c28.netlify.app/final_model_kaggle_version1/model.json');
-	$("#selected-image").attr("src", "https://stupefied-spence-7a6c28.netlify.app/assets/samplepic.jpg");
+	model = await tf.loadModel('https://abhinavsri360.github.io/Skin-Lesion-Analyzer/final_model_kaggle_version1/model.json');
+	$("#selected-image").attr("src", "https://abhinavsri360.github.io/Skin-Lesion-Analyzer/assets/samplepic.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
